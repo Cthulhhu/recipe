@@ -41,3 +41,54 @@ h3 {
     text-align: center;
     font-size: 25px;
 }
+
+nav a, nav span, menu li, #social, footer {
+    font-size: 20px;
+}
+
+p, dd, li, nav, input {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+dt {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+dd {
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    display: grid;
+    position: absolute;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0 0 5px rgba(0,0,0,.5));
+    grid-template-columns: repeat(4,1fr);
+}
+
+header {
+    padding: 175px 0 0 0;
+    background-color: var(--foreground);
+}
+
+nav label {
+    padding: 0 20px;
+    margin: auto auto;
+    text-align: center;
+}
