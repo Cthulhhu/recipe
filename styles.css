@@ -1,0 +1,21 @@
+:root {
+    --primary: #7ABFBF;
+    --primary-light: rgba(122,191,191,0.5);
+    --background: #0D0D0D;
+    --foreground: #F2F2F2;
+    --secondary: #EB5428;
+}
+
+* {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 414px;
+    background-color: var(--primary-light);
+    overflow-x: hidden;
+    position: relative;
+}
