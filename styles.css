@@ -441,6 +441,7 @@ small {
 
     .ingredients li {
         line-height: 1.75em;
+        padding: 0px 0;
     }
 
     .directions {
@@ -556,6 +557,21 @@ small {
 
     .detail strong {
         display: block;
+    }
+
+    .instuctions ol {
+        padding-inline-start: 30px;
+        padding-right: 100px;
+        padding: 0px 0 0px 0px;
+    }
+
+    .ingredients li {
+        line-height: 1.75em;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .directions {
+        grid-column: 2/5;
     }
 
     .side-dishes {
